@@ -4,7 +4,7 @@ import random
 
 WIDTH = 540
 HEIGHT = 740
-FPS = 1
+FPS = 2
 SIZE_BLOCK = 20
 
 WHITE = (255, 255, 255)
@@ -131,7 +131,7 @@ while running:
         all_sprites.add(apple)
         apples.add(apple)
         len_of_snake += 1
-        total += 1
+        total += 2
         FPS = total // 2 + 1
     else: snake_list = snake_list[-len_of_snake:]
     snake.update()
